@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+//Index.vue
+
+.page-container{
+  background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_361591-1242.jpg?w=1800&t=st=1681076135~exp=1681076735~hmac=e0fb2bcf24daa36c05c676052f392d82f31fa260406afcec14c1a00409787b32');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.q-page-container{
+  padding-top: 0px!important;
+}
+
+.q-layout .q-layout--standard{
+  //min-height: 650px!important;
+}
+
+.q-toolbar .q-btn {
+  margin: 0 10px;
+}
+.nav-menu{
+  font-family: 'EB Garamond', Serif;
+  margin-right: 25px;
+  color: #1D1D1D;
+}
+
+.index-h5-title{
+  color: #3a4f72;
+  font-weight: bold;
+  font-family: "EB Garamond", Serif;
+}
+.index-h3-title{
+  line-height: 60px;
+  font-family: "EB Garamond",Serif;
+}
+.index-list{
+  font-size: 24px;
+  color: #3a4f72;
+  font-family: "EB Garamond",Serif;
+}
+.index-button{
+  font-family: "EB Garamond",Serif;
+    background-color:#3a4f72;
+  color: white;
+}
+
+@media screen and (min-width: 992px){
+  .patent-application{
+    margin-left: 120px;
+  }
+  .index-image{
+    margin-left: 100px;
+  }
+}
+// end of Index.vue
+
+
+//footer
+.site-footer
+{
+  background-color:white;
+  padding:45px 150px 0px;
+  font-size:15px;
+  line-height:24px;
+  color: #666666;
+  box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.15);
+}
+.privacy-policy-btn , .cookie-btn , .footer-contact-us{
+  text-transform: none;
+  color: #666666;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#000006;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color: #666;
+}
+.site-footer a:hover ,button:hover
+{
+  color:$primary;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none;
+  font-family: "Raleway",serif;
+}
+.footer-links li
+{
+  margin: 10px 0;
+  display:block;
+}
+.footer-links a
+{
+  color: #666;
+  text-decoration:none;
+  font-size: 14px;
+  text-transform: none;
+}
+.footer-links.inline li
+{
+  display:inline-block;
+
+}
+.footer-contact-us{
+  margin-bottom: 40px;
+  font-family: 'EB Garamond',serif
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+
+.copyright-text
+{
+  margin:20px;
+  font-family: "EB Garamond",serif;
+}
+.about-footer, .footer-address{
+  font-family: "EB Garamond",serif;
+  font-size: 16px;
+}
+@media screen and (max-width:991px)
+{
+  .site-footer
+  {
+    margin-bottom:30px;
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .categories{
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .iyzico-image{
+    display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  .iyzico-image{
+    max-width: 320px;
+  }
+  ul.social-icons{
+    display: contents;
+  }
+  .about-footer{
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .iyzico-image{
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .iyzico-image{
+    max-width: 200px;
+  }
+}
+.footer-titles{
+  padding-left: 15px;
+  font-size: 18px;
+  color:black;
+  font-family: "EB Garamond",serif;
+}
+.about-footer{
+  max-width: 70%;
+}
+@media screen and (max-width: 1023px){
+  .site-footer{
+    padding: 5px 50px 0px;
+  }
+}
+
+span.block{
+  text-align: initial;
+}
+//End of footer
+
+
+//pricing page
+
+.pricing-table{
+  font-family: "EB Garamond",Serif;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #eeeff2;
+  margin-top: 25px;
+}
+
+.pricing-table th,td {
+  padding: 8px;
+  border: none;
+
+}
+span.table-subtitle{
+  display: grid;
+  font-size: 18px;
+  color: #8492af;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+  color: #3a4f72;
+}
+p.pricing-content{
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "EB Garamond", Serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1230px)
+{
+  p.pricing-content{
+    max-width: 100%;
+    text-align: left;
+  }
+}
+
+.h4-pricing, .h6-pricing{
+  margin-bottom: 50px;
+  font-family: "EB Garamond", Serif!important;
+}
+.h5-pricing{
+  color: $primary;
+  font-family: "EB Garamond", Serif;
+}
+p.pricing-subtitle{
+  font-family: "EB Garamond", Serif;
+  font-size: 16px;
+}
+//end of pricing page
